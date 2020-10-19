@@ -1,0 +1,30 @@
+body {
+  height: 400vh;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+.image {
+  height: 200px;
+  margin-right: 10px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+#validation-input.invalid {
+  border-color: #f44336;
+}
