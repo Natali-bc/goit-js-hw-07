@@ -13,4 +13,4 @@ ingredients.forEach(el => {
   ul.append(li);
 });
 
-console.log(ul);
+

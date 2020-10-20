@@ -1,7 +1,7 @@
 const rangeRef = document.querySelector('#font-size-control');
 const spanRef = document.querySelector('#text');
 
-const rangeHandler = event => {
+const rangeHandler = () => {
   let range = rangeRef.value;
   spanRef.style.fontSize = range + 'px';
 };
